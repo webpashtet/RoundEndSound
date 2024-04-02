@@ -1,0 +1,143 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	sound1 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_1.vsnd"
+    },
+	sound2 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_2.vsnd"
+    },
+	sound3 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_3.vsnd"
+    },
+	sound4 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_4.vsnd"
+    },
+	sound5 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_5.vsnd"
+    },
+	sound6 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_6.vsnd"
+    },
+	sound7 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_7.vsnd"
+    },
+	sound8 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_8.vsnd"
+    },
+	sound9 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_9.vsnd"
+    },
+	sound10 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_10.vsnd"
+    },
+	sound11 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_11.vsnd"
+    },
+	sound12 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_12.vsnd"
+    },
+	sound13 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_13.vsnd"
+    },
+	sound14 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_14.vsnd"
+    },
+	sound15 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_15.vsnd"
+    },
+	sound16 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_16.vsnd"
+    },
+	sound17 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_17.vsnd"
+    },
+	sound18 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_18.vsnd"
+    },
+	sound19 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_19.vsnd"
+    },
+	sound20 = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files_track_01 = "sounds/bombateamres/bombateam_20.vsnd"
+    }
+}	
