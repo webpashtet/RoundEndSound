@@ -15,6 +15,7 @@ public class Config : BasePluginConfig
         User = "testUser",
         Password = "superduperpassword"
     };
+    [JsonPropertyName("random_selection_mode")] public bool RandomSelectionMode { get; init; } = true;
     [JsonPropertyName("default_enable_music")] public bool DefaultEnableMusic { get; init; } = true;
     [JsonPropertyName("default_enable_notify")] public bool DefaultEnableNotify { get; init; } = true;
     [JsonPropertyName("disable_MVP_sound")] public bool DisableMvpSound { get; init; } = true;

@@ -16,7 +16,7 @@ namespace RoundEndSound
     public class RoundEndSound : BasePlugin, IPluginConfig<Config.Config>
     {
         public override string ModuleName => "Round End Sound";
-        public override string ModuleVersion => "1.0.0";
+        public override string ModuleVersion => "1.0.1";
         public override string ModuleAuthor => "gleb_khlebov";
         public override string ModuleDescription => "Plays a sound at the end of the round";
         
@@ -30,8 +30,10 @@ namespace RoundEndSound
         private readonly Utils.PlayerUtils _playerUtils = new();
         
         private int _trackCount;
+        private int _lastPlayedTrackIndex;
         private static Sound? _lastPlayedTrack;
         private static List<Sound> _tracks = [];
+        private readonly HashSet<Sound> _playedSongs = [];
         
         private readonly HashSet<string> _playersHotLoaded = [];
         private readonly Dictionary<string, ResPlayer?> _players = [];
@@ -80,9 +82,10 @@ namespace RoundEndSound
             
             _tracks.Clear();
             _players.Clear();
+            _playedSongs.Clear();
             _playersForSave.Clear();
             _playersHotLoaded.Clear();
-            
+
             _lastPlayedTrack = null;
         }
         
@@ -171,15 +174,44 @@ namespace RoundEndSound
             
             return HookResult.Continue;
         }
-        
+
         [GameEventHandler]
         public HookResult OnRoundEnd(EventRoundEnd @event, GameEventInfo info)
         {
+            if (_players.Count < 1)
+                return HookResult.Continue;
+
             if (_trackCount < 1)
                 return HookResult.Continue;
+
+            int trackIndex;
+            Sound currentSound;
+
+            if (Config.RandomSelectionMode) {
+                if (_playedSongs.Count == _trackCount)
+                    _playedSongs.Clear();
             
-            int trackIndex = _random.Next(_trackCount);
-            Sound currentSound = _tracks[trackIndex];
+                do
+                {
+                    trackIndex = _random.Next(_trackCount);
+                    currentSound = _tracks[trackIndex];
+                } while (_playedSongs.Contains(currentSound));
+            
+                _playedSongs.Add(currentSound);
+            }
+            else
+            {
+                if (_lastPlayedTrack == null || _lastPlayedTrackIndex.Equals(_tracks.Count-1))
+                {
+                    trackIndex = 0;
+                }
+                else
+                {
+                    trackIndex = _lastPlayedTrackIndex + 1;
+                }
+                currentSound = _tracks[trackIndex];
+                _lastPlayedTrackIndex = trackIndex;
+            }
             
             foreach (var player in _players.Select(resPlayer => resPlayer.Value))
             {
@@ -200,7 +232,7 @@ namespace RoundEndSound
                 if (resPlayer.SoundEnabled)
                     player?.ExecuteClientCommand($"play {sound.Path}");
                 if (resPlayer.ChatEnabled)
-                    player?.PrintToChat($"{Localizer["chat.Prefix"]}{Localizer["chat.PlayedSong", sound.Name]}");
+                    player?.PrintToChat($"{Localizer["chat.Prefix"]}{Localizer["chat.PlayedSong", sound.Name]}{NewLine}{Localizer["chat.Settings"]}");
             });
         }
         
@@ -209,7 +241,7 @@ namespace RoundEndSound
             Server.NextFrame(() =>
             {   
                 player.ExecuteClientCommand($"play {_lastPlayedTrack!.Path}");
-                player.PrintToChat($"{Localizer["chat.Prefix"]}{Localizer["chat.PlayedSong", _lastPlayedTrack.Name]}");
+                player.PrintToChat($"{Localizer["chat.Prefix"]}{Localizer["chat.PlayedSong", _lastPlayedTrack.Name]}{NewLine}{Localizer["chat.Settings"]}");
             });
         }
         

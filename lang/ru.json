@@ -3,6 +3,7 @@
   "menu.LastPlayedSong": "Последний проигранный трек - {green}{0}",
   "menu.ListenLastPlayedSong": "Прослушать последний трек",
   "chat.Prefix": "{green}[Round End Sound] » ",
+  "chat.Settings": "{default}ㅤㅤㅤㅤㅤㅤ» Настройки музыки: - {green}!res",
   "chat.PlayedSong": "{default}Сейчас играет {green}{0}",
   "chat.Enabled": "{green}[Включено]",
   "chat.Disabled": "{red}[Выключено]",
