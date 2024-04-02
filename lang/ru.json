@@ -1,0 +1,11 @@
+﻿{
+  "menu.Title": "{green}[Round End Sound] » {default}Выберите необходимый пункт",
+  "menu.LastPlayedSong": "Последний проигранный трек - {green}{0}",
+  "menu.ListenLastPlayedSong": "Прослушать последний трек",
+  "chat.Prefix": "{green}[Round End Sound] » ",
+  "chat.PlayedSong": "{default}Сейчас играет {green}{0}",
+  "chat.Enabled": "{green}[Включено]",
+  "chat.Disabled": "{red}[Выключено]",
+  "SoundEnabled": "Музыка в конце раунда",
+  "ChatEnabled": "Информация о треке в чат"
+}
