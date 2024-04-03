@@ -27,8 +27,11 @@ For example:
 ```
 
 ## To do...
+- [x] Rework random sound selection logic
+- [x] Add "in order" sound selection mode
 - [ ] Add menu point to view all songs
-
+- [ ] Аdd a command to clear old players and scheduler
+- [ ] Create instructions for assembling your workshop addon with music
 
 
 
