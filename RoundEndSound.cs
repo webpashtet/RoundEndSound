@@ -16,7 +16,7 @@ namespace RoundEndSound
     public class RoundEndSound : BasePlugin, IPluginConfig<Config.Config>
     {
         public override string ModuleName => "Round End Sound";
-        public override string ModuleVersion => "1.0.1";
+        public override string ModuleVersion => "1.0.2";
         public override string ModuleAuthor => "gleb_khlebov";
         public override string ModuleDescription => "Plays a sound at the end of the round";
         
@@ -65,8 +65,16 @@ namespace RoundEndSound
             
             RegisterEventHandler<EventRoundMvp>((@event, info) =>
             {
-                if (!Config.DisableMvpSound) return HookResult.Continue;
+                CCSPlayerController? player = @event.Userid;
             
+                if (_playerUtils.IsInvalidPlayer(player))
+                    return HookResult.Continue;
+
+                if (_players.TryGetValue(player.SteamID.ToString(), out var user))
+                {
+                    if (!user!.SoundEnabled) return HookResult.Continue;
+                }
+                
                 info.DontBroadcast = true;
             
                 return HookResult.Continue;
@@ -320,9 +328,6 @@ namespace RoundEndSound
         {
             foreach (var player in Utils.PlayerUtils.GetOnlinePlayers())
             {
-                if (_playerUtils.IsInvalidPlayer(player))
-                    return;
-
                 _playersHotLoaded.Add(player.SteamID.ToString());
             }
 
