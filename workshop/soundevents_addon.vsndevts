@@ -5,139 +5,139 @@
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_1.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound2 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_2.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound3 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_3.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound4 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_4.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound5 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_5.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound6 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_6.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound7 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_7.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound8 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_8.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound9 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_9.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound10 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_10.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound11 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_11.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound12 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_12.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound13 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_13.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound14 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_14.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound15 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_15.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound16 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_16.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound17 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_17.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound18 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_18.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound19 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_19.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     },
 	sound20 = 
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		vsnd_files_track_01 = "sounds/bombateamres/bombateam_20.vsnd"
+		vsnd_files_track_01 = "sounds/YOURFOLDERNAME/YOURMUSICNAME_X.vsnd"
     }
 }	

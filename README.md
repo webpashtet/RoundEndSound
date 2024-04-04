@@ -17,6 +17,7 @@
 ## How add music to server
 In few:
 1. Create addon with your songs and post him in workshop
+   **[Example SoundEvents addon file](https://github.com/webpashtet/RoundEndSound/blob/main/workshop/soundevents_addon.vsndevts)**
 2. Add the addon to the server using [**MultiAddonManager**](https://github.com/Source2ZE/MultiAddonManager)
 3. Configure the **Round End Sound** config
 ```json
