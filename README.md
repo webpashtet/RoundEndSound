@@ -33,6 +33,9 @@ In few:
 ]
 ```
 
+## YouTube video
+[![VIDEO GUIDE](https://img.youtube.com/vi/ui8idmJQdb0/0.jpg)](https://www.youtube.com/watch?v=ui8idmJQdb0)
+
 ## To do...
 - [x] Rework random sound selection logic
 - [x] Add "in order" sound selection mode
