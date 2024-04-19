@@ -1,5 +1,7 @@
 # RoundEndSound
 
+[![Github All Releases](https://img.shields.io/github/downloads/webpashtet/RoundEndSound/total.svg)]()
+
 **Support the author: [DonationAlerts](https://www.donationalerts.com/r/gleb_khlebov)**
 
 **CounterStrikeSharp plugin to play cool musics when a round ends.**
@@ -33,8 +35,8 @@ In few:
 ]
 ```
 
-## YouTube video
-[![VIDEO GUIDE](https://img.youtube.com/vi/ui8idmJQdb0/0.jpg)](https://www.youtube.com/watch?v=ui8idmJQdb0)
+## English video guide (updated)
+[![VIDEO GUIDE_ENG](https://img.youtube.com/vi/7JBq2zmlWU0/0.jpg)](https://www.youtube.com/watch?v=7JBq2zmlWU0)
 
 ## To do...
 - [x] Rework random sound selection logic
