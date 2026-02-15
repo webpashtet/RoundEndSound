@@ -48,3 +48,26 @@ In few:
 
 
 
+
+## Sound files verification checklist
+Use this quick process when HUD/chat says a song is playing but no audio is heard:
+
+1. **Copy the exact path from server logs**
+   - Example from logs: `play sounds/my_sound_pack/gdzie.vsnd_c`
+
+2. **Check that this exact path exists inside your workshop addon/VPK**
+   - Path must match exactly (folder names and letter case).
+   - Linux servers are case-sensitive.
+
+3. **Verify config paths**
+   - Every `music_list[].path` must point to a `.vsnd_c` file that exists in the mounted addon.
+
+4. **Verify addon is mounted on the server**
+   - Ensure MultiAddonManager mounted your workshop addon and search path points to your addon VPK.
+
+5. **Verify client can receive/use the resource**
+   - Join with a real player (not only bots) and test after one full round end.
+
+6. **Cross-check plugin diagnostics**
+   - If you see `PlaySound: executing 'play ...'` but still no sound, issue is usually missing/wrong resource path in addon.
+

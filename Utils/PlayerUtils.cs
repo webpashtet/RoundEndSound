@@ -34,6 +34,6 @@ public class PlayerUtils
     
     public bool IsInvalidPlayer(CCSPlayerController player)
     {
-        return player is { IsBot: true, IsHLTV: true, IsValid: false };
+        return !player.IsValid || player.IsBot || player.IsHLTV;
     }
 }
